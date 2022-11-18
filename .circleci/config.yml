@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/ProductCatalog
     docker:
-      - image: circleci/android:2022.09.2
+      - image: cimg/android:2022.09.2
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
